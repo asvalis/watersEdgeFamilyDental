@@ -9,6 +9,13 @@ Rails.application.routes.draw do
   resources :homes
 
   root :to => 'homes#index'
+  get "faqs" => 'faqs#index'
+  get "blogs" => 'blogs#index'
+  get "patients" => 'patients#index'
+  get "doctors" => 'doctors#index'
+  get "services" => 'services#index'
+  get "staffs" => 'staffs#index'
+  get "appointments" => 'appointments#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

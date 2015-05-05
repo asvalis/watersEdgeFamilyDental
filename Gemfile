@@ -50,5 +50,11 @@ group :development, :test do
   #Bootstrap
   gem 'bootstrap3-rails'
 
+  group :development do
+  gem 'better_errors'
+end
+
+  gem 'google-analytics-rails'
+
   gem 'devise'
 end
