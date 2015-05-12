@@ -57,4 +57,6 @@ end
   gem 'google-analytics-rails'
 
   gem 'devise'
+
+  gem 'rename'
 end

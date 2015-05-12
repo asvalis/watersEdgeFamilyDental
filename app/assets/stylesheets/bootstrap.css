@@ -3876,6 +3876,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav {
   padding-left: 0;
+  padding-bottom: 0;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4069,7 +4070,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -6067,6 +6068,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  padding-top: 0px;
 }
 .carousel-inner {
   position: relative;
